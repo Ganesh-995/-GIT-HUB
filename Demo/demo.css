@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: f1;
+}
+
+@font-face {
+  font-family: f1;
+  src: url(/Demo/font/my.ttf);
+}
+
+.head-section {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(250, 243, 225);
+}
+.nav {
+  width: 100%;
+  background-color: rgb(250, 243, 225);
+  position: fixed;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+}
+ul {
+  height: 60px;
+}
+
+.menu {
+  display: flex;
+
+  align-items: center;
+  padding: 5px 10px;
+  margin: 20px 30px;
+}
+
+ul :first-child {
+  border-radius: 20px;
+
+  margin-right: auto;
+}
+ul :last-child {
+  border-radius: 20px;
+
+  margin-left: auto;
+}
+#m-border {
+  padding: 5px 10px;
+  border: 2px solid black;
+}
+.menu-6 {
+  background-color: rgb(39, 39, 39);
+}
+.text-color {
+  padding: 5px 10px;
+  color: white;
+}
+.text-color1 {
+  margin: 5px 10px;
+  color: rgb(39, 39, 39);
+}
+
+.main {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1 {
+  color: rgb(39, 39, 39);
+  font-size: 60px;
+}
+.main .img {
+  margin: 0 100px;
+}
+/* ==============Payent-Lable-start================ */
+.container {
+  color: rgb(250, 243, 225);
+  background-color: rgb(39, 39, 39);
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+h4:hover {
+  background-color: rgb(32, 32, 32);
+}
+/* ==============Payent-Lable-end================ */
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(250, 243, 225);
+}
+
+#heading1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.para {
+  text-align: center;
+  width: 300px;
+}
+.heading3 {
+  width: 100%;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.e-card {
+  margin: 30px;
+  height: 300px;
+  width: 250px;
+  background-color: aquamarine;
+  border-radius: 15px;
+  text-align: center;
+}
+.e-card p {
+  text-align: justify;
+  width: 150px;
+}
+.h2 {
+  margin: 20px;
+}
